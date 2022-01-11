@@ -33,3 +33,15 @@ header{
   font-size: 2rem;
   font-weight: 300;
 }
+
+.tag {
+  padding: 2 px 5 px 2 px 5 px;
+  margin-left: 10 px;
+  color: white;
+  text-align: center;
+  background-color: #2C365E;
+}
+
+.rounded {
+  border-radius: 0.25 rem !important;
+}

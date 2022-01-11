@@ -2,10 +2,16 @@ import React from "react";
 
 function SkillTag({skill}) {
   return (
-    <div className="tag rounded">
-      {skill}
+    <div className="col-6 col-sm-4 col-md-3 col-lg-2 g-2">
+      <div className="tag rounded">
+        {skill}
+      </div>
     </div>
   );
+}
+
+function ProjectLink() {
+  
 }
 
 const ProjectCard = ({project}) => {
@@ -25,9 +31,7 @@ const ProjectCard = ({project}) => {
       </div>
       <div className="card-footer">
         <div className="row">
-          <div className="col-6 col-sm-4 col-md-3 col-lg-2 g-2">
-            {RenderSkillTag()}
-          </div>
+          {RenderSkillTag()}
         </div>
       </div>
     </div>
