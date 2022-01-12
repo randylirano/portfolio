@@ -38,6 +38,11 @@ const NavBar = () => {
                 Project
               </Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/experience">
+                Experience
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>
