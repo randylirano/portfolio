@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "../components/NavBar";
-import "../stylesheets/main.css";
+// import "../stylesheets/main.css";
 
 const LandingPage = () => {
   return (

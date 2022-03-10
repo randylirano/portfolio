@@ -8,7 +8,7 @@ const NavBar = () => {
   return (
     <div>
       <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-        <Link className="navbar-brand disable" to="/">
+        <Link className="navbar-brand disable p-2" to="/">
           Randy Lirano
         </Link>
         <button

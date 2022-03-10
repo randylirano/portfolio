@@ -1,9 +1,11 @@
 html {
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .section-page {
   margin-top: 5em;
+  /* background-color: #f0e1c0; */
+  width: 100%;
 }
 
 header{
@@ -29,7 +31,7 @@ header{
   user-select: none;
 }
 
-#landing-text h6{
+#landing-text h2{
   font-size: 2rem;
   font-weight: 300;
 }
@@ -44,4 +46,19 @@ header{
 
 .rounded {
   border-radius: 0.25 rem !important;
+}
+
+.copyright{
+  margin-top: 1rem;
+  width: 100%;
+  text-align: center;
+  background-color: #333;
+  padding: 0.5rem 0;
+  position: relative;
+}
+
+.copyright p{
+  font-size: 1rem;
+  font-weight: 200;
+  color: #fc3;
 }

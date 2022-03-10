@@ -1,8 +1,11 @@
 import React from "react";
 import NavBar from "../components/NavBar";
+import SkillTag from "../components/SkillTag";
+import Footer from "../components/Footer";
 import img from "../images/profile.jpg";
 
 const AboutPage = () => {
+
   return (
     <div className="container section-page">
       <NavBar />
@@ -58,6 +61,7 @@ const AboutPage = () => {
               aria-labelledby="panelsStayOpen-headingOne"
             >
               <div className="accordion-body">
+                
                 <ul id="programming-language">
                   <li>Python</li>
                   <li>Java</li>
@@ -106,6 +110,7 @@ const AboutPage = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
