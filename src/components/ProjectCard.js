@@ -1,5 +1,6 @@
 import React from "react";
 import SkillTag from "./SkillTag";
+import SkillStacksList from "./SkillStackList";
 
 
 const ProjectCard = ({project}) => {
@@ -19,7 +20,8 @@ const ProjectCard = ({project}) => {
       </div>
       <div className="card-footer">
         <div className="row">
-          {RenderSkillTag()}
+          {/* {RenderSkillTag()} */}
+          <SkillStacksList inputList={project.skill_stacks}/>
         </div>
       </div>
     </div>

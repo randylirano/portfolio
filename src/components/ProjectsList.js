@@ -37,7 +37,7 @@ const ProjectsList = () => {
   }
 
   return(
-    <div className="container section-page">
+    <div className="row section-page">
       {renderProjectCards()}
     </div>
   );

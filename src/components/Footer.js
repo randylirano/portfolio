@@ -3,12 +3,11 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer class="copyright">
+    <footer className="copyright">
         <p>
             &copy; 2022 Randy Lirano
         </p>
     </footer>
-
   );
 };
 

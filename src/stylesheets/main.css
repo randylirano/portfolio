@@ -39,9 +39,9 @@ header{
 .tag {
   padding: 2 px 5 px 2 px 5 px;
   margin-left: 10 px;
-  color: white;
+  color: black;
   text-align: center;
-  background-color: #2C365E;
+  background-color: #fc3;
 }
 
 .rounded {
